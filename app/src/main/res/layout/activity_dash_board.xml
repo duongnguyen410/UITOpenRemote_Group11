@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DashBoardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/radius_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome back!"
+            android:textSize="35sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+    <FrameLayout
+        android:layout_width="370dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/radius_7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/radius_8">
+
+                <TextView
+                    android:id="@+id/date_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02"
+                    android:textSize="50sp"
+                    android:textColor="#ffae33"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/my_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jan, 2023"
+                    android:textSize="18sp"
+                    android:textColor="#2a2a32"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="60dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/welcome_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi user1!"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#2a2a32"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have a good day"
+                android:textSize="20sp"
+                android:textColor="#2a2a32"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="15dp"/>
+
+        </RelativeLayout>
+    </FrameLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/map_Tab"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/radius_9">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/radius_10"
+                android:src="@drawable/ic_baseline_location_on_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#2a2a32"
+                />
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="320dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_navigate_next_24"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/graph_Tab"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/radius_9">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/radius_10"
+                android:src="@drawable/ic_baseline_timeline_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graph"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#2a2a32"
+                />
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="320dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_navigate_next_24"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/data_Tab"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/radius_9">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/radius_10"
+                android:src="@drawable/ic_baseline_text_snippet_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQLite Data"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#2a2a32"
+                />
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="320dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_navigate_next_24"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffae33"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/menu_item"
+            app:itemTextColor="@drawable/item_active"
+            app:itemIconTint="@drawable/item_active"
+            app:itemIconSize="30dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

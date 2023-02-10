@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UITOpenRemote_Group11</string>
+
+    <string-array name="filter">
+        <item>Dec,2022</item>
+        <item>Jan,2023</item>
+    </string-array>
+</resources>
